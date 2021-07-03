@@ -65,7 +65,7 @@
                         bindings = <
    &kp A  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT    &trans &trans &trans &kp LBRC &kp RBRC &trans 
    &trans &kp CARET  &kp AMPS &kp STAR &kp LPAR &kp RPAR    &trans &trans &kp DQT &kp COLON &trans 
-   &trans &kp UNDER &kp PLUS   &kp PIPE &trans &trans    &trans &trans &hm LSHIFT COMMA &hm LSHIFT DOT &trans
+   &trans &kp UNDER &kp PLUS   &kp PIPE &trans &trans    &trans &trans &kp LS(COMMA) &kp LS(DOT) &trans
    &trans &trans &trans &trans                  &trans       &trans &trans &trans
                         >;
                 };
