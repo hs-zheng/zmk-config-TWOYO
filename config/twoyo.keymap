@@ -83,11 +83,11 @@
 // |     |     |     |     |     |      |     |     |     |     |     |     |
 // |     |     |     |     |     |      |     |     |     |     |     |     | 
 // |     |     |     |                  |     |           |     |     |     |
-                        bindings = <
-   &kp LS(GRAVE)  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT    &trans &trans &trans &kp LBRC &kp RBRC &trans 
-   &trans &kp CARET  &kp AMPS &kp STAR &kp LPAR &kp RPAR    &trans &trans &kp DQT &kp COLON &kp LS(ENTER)
+                        bindings = <g
+   &kp LS(GRAVE)  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT    &trans &trans &trans &kp LS(LBKT) &kp LS(RBKT) &trans 
+   &trans &kp CARET  &kp AMPS &kp STAR &kp LPAR &kp RPAR    &trans &trans &kp LS(SCLN)  &kp LS(QUOT) &kp LS(ENTER)
    &trans &kp UNDER &kp PLUS   &kp PIPE &trans &trans    &trans &trans &kp LS(COMMA) &kp LS(DOT) &trans
-   &trans &trans &trans &trans                  &kp LS(SPACE)       &trans &trans &trans
+   &trans &trans &trans &trans                  &kp LS(SPACE)       &kp LS(FLSH) &trans &trans
                         >;
                 };
                 
