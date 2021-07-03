@@ -39,7 +39,7 @@
                 };
         
         behaviors {
-                altf4: grave_escape {
+                altf4: alt_f4 {
                         compatible = "zmk,behavior-mod-morph";
                         label = "F_ALTF4";
                         #binding-cells = <0>;
