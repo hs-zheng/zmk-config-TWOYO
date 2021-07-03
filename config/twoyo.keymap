@@ -16,8 +16,8 @@
         combos {
                 compatible = "zmk,combos";
                 combo_uclk {
-                        timeout-ms = <3000>;
-                        key-positions = <17 20>;
+                        timeout-ms = <1200>;
+                        key-positions = <16 17 19 20>;
                         bindings = <&to 0>;
                               };
                 };
