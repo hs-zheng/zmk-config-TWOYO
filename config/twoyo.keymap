@@ -12,6 +12,16 @@
 
 
 / {
+        behaviors {
+                altf4: grave_escape {
+                        compatible = "zmk,behavior-mod-morph";
+                        label = "F_ALTF4";
+                        #binding-cells = <0>;
+                        bindings = <&kp F>, <&kp LA(F4)>;
+                        mods = <(MOD_LALT)>;
+                };
+        };
+        
         keymap {
                 compatible = "zmk,keymap";
 
@@ -23,7 +33,7 @@
 // | MO_2 | GUI | ALT |  | LT(1,SPC) |      |     LT(1,SPC)      | LFT | DWN  | RT |
                         bindings = <
    &kp TAB  &kp Q &kp W &kp E &kp R &kp T     &kp Y &kp U  &kp I  &kp O  &kp P   &kp BSPC
-   &mt LCTL CAPS &kp A  &kp S &kp D &kp F &kp G        &kp H &kp J  &kp K     &kp L     &kp ENTER
+   &mt LCTL CAPS &kp A  &kp S &kp D &altf4 &kp G        &kp H &kp J  &kp K     &kp L     &kp ENTER
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B        &kp N &kp M  &kp COMMA &kp DOT &lt 3 UP
    &mo 2 &kp LGUI &kp LALT &lt 1 SPC   &lt 1 SPC &kp LEFT &kp DOWN &kp RIGHT
                         >;
@@ -64,9 +74,9 @@
 // |     |     |     |                  |     |           |     |     |     |
                         bindings = <
    &kp A  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT    &trans &trans &trans &kp LBRC &kp RBRC &trans 
-   &trans &kp CARET  &kp AMPS &kp STAR &kp LPAR &kp RPAR    &trans &trans &kp DQT &kp COLON &trans 
+   &trans &kp CARET  &kp AMPS &kp STAR &kp LPAR &kp RPAR    &trans &trans &kp DQT &kp COLON &kp LS(ENTER)
    &trans &kp UNDER &kp PLUS   &kp PIPE &trans &trans    &trans &trans &kp LS(COMMA) &kp LS(DOT) &trans
-   &trans &trans &trans &trans                  &trans       &trans &trans &trans
+   &trans &trans &trans &trans                  &kp LS(SPACE)       &trans &trans &trans
                         >;
                 };
         };
