@@ -18,6 +18,7 @@
                 combo_uclk {
                         timeout-ms = <1200>;
                         key-positions = <16 17 19 20>;
+                        layers = <4>;
                         bindings = <&to 0>;
                               };
                 };
