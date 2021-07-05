@@ -24,17 +24,17 @@
                         bindings = <&to 0>;
                               };
                         
-                combo_rst_lf {
-                        timeout-ms = <1000>;
-                        key-positions = <4 5 14>;
-                        bindings = <&reset>;
-                        };
+//                combo_rst_lf {
+//                        timeout-ms = <100>;
+//                        key-positions = <4 5 14>;
+//                        bindings = <&reset>;
+//                        };
                         
-                combo_rst_rt {
-                        timeout-ms = <1000>;
-                        key-positions = <6 7 21>;
-                        bindings = <&reset>;
-                        };
+//                combo_rst_rt {
+//                        timeout-ms = <100>;
+//                        key-positions = <6 7 21>;
+//                        bindings = <&reset>;
+//                        };
                         
                 };
         
