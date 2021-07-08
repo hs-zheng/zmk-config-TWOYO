@@ -85,8 +85,8 @@
 // | SFT | F6  |  F7 |  F8 | F9  |  F10 |     | F11 | F12 |     |     |     | RSFT  |
 // |     |     |     |                  |     |           |     |     |     | TO_4
                         bindings = <
-   &kp GRAVE  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans &trans  &trans &trans &trans &out OUT_TOG
-   &kp LCTRL &kp F1  &kp F2  &kp F3    &kp F4  &kp F5      &trans &trans &trans &trans  &trans 
+   &kp GRAVE  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans &trans  &trans &out OUT_TOG &trans &bt BT_CLR
+   &kp LCTRL &kp F1  &kp F2  &kp F3    &kp F4  &kp F5      &trans &trans &trans &trans  &reset 
    &kp LSHIFT &kp F6    &kp F7  &kp F8    &kp F9    &kp F10      &kp F11    &kp F12    &trans  &trans &kp RSHIFT
    &trans &trans &trans                     &trans          &trans              &trans &trans &to 4
                         >;
